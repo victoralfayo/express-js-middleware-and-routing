@@ -1,0 +1,13 @@
+html {
+    font-family: Lato;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    background-color: orangered;
+    border: 1px hidden gray;
+    gap: 1em;
+}
