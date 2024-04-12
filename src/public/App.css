@@ -24,7 +24,7 @@ html, * {
 
 @media only screen and (orientation: portrait) {
     .header {
-        font-size: 12dvw 8dvh;
+        font-size: 2em;
         font-weight: 600;
         display: flex;
         flex-direction: row;
