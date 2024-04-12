@@ -46,6 +46,11 @@ app.get('/nenda', (req, res) => {
 app.get('/siri', (req, res) => {
   res.sendFile(path.join(__dirname,'src','public','mbonyi.html'));
 })
+
+app.get('/sikiliza', (req,res) => {
+  res.render('sikiliza')
+})
+
 app.listen(port, () => {
   console.log("Ingwe yabaho");
 })
