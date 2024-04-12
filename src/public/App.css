@@ -2,12 +2,10 @@ html, body, * {
     box-sizing: border-box;
     font-family: "Nokora", sans-serif;
     margin: 0;
-    padding: 0; 
+    
 }
 
 .header {
-    font-size: 2em;
-    font-weight: 700;
     display: inline-block;
     margin: 1rem auto;
     padding: 1rem auto;
@@ -15,9 +13,12 @@ html, body, * {
     
 }
 
-h1{
+h1 { 
+    font-size: 3em;
     text-align: center;
     background-color: rgb(168, 61, 22);
+    font-weight: 700;
+
 }
 .main-content {
     margin: auto auto;
