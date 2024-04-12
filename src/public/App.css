@@ -9,14 +9,14 @@ html, body,  * {
     display: inline-block;
     margin: 1rem;
     padding: 1rem 1rem;
-    & h1{
-    text-align: center;
-    align-items: center;
-    background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
-    }
+    background-color: rgb(168, 61, 22);
 }
 
+h1{
+    text-align: center;
+    
+}
 .main-content {
     margin: auto auto;
     text-align : center;
