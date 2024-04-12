@@ -1,0 +1,19 @@
+html {
+    font-family: Lato;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    background-color: rgb(168, 61, 22);
+    border: 1px hidden gray;
+    gap: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        page-orientation: portrait;
+    }
+}
