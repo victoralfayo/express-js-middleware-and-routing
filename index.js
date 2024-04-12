@@ -5,8 +5,7 @@ console.log(`Hello Node.js`, process);
 const express = require('express');
 const app = express()
 const path = require('path')
-//const __filename = fileURLToPath(import.meta.url);
-//const __dirname = path.dirname(__filename);
+
 const dotenv = require('dotenv');
 dotenv.config();
 const port = process.env.PORT || 3000;
@@ -34,6 +33,7 @@ app.get('/shukran', [hello, hello2], (req, res, next) => {
   
   res.send("<h1>Mpenzi unaenda nenda lote mama</h1>")
   console.log("Amani na Uhuru");
+  next()
 
 },(req, res) => {
   console.log("Raha tupate na ustawi");
@@ -43,6 +43,9 @@ app.get('/nenda', (req, res) => {
   res.render('sauti');
 })
 
+app.get('/siri', (req, res) => {
+  res.sendFile(path.join(__dirname+'/mbonyi.html'));
+})
 app.listen(port, () => {
   console.log("Ingwe yabaho");
 })
