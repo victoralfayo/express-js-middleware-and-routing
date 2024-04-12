@@ -14,10 +14,10 @@ html, body, * {
 }
 
 h1, h2, h3, h4{ 
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     background-color: rgb(168, 61, 22);
-    font-weight: 700;
+    font-weight: 500;
     margin: 1rem auto;
 }
 .main-content p {
@@ -30,8 +30,8 @@ h1, h2, h3, h4{
 
 @media only screen and (orientation: portrait) {
     .header {
-        font-size: 2em;
-        font-weight: 600;
+        font-size: 1.5em;
+        font-weight: 500;
         display: flex; 
         margin: 1rem 0;
         padding: 1rem 2rem; 
@@ -41,7 +41,7 @@ h1, h2, h3, h4{
     }
     body { 
         font-weight: 12dvh;
-        font-size: 2em;
+        font-size: 1em;
         margin: auto auto;
         padding: 1rem 1rem;
         display: flex;
