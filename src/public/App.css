@@ -9,10 +9,12 @@ html, * {
     display: inline-block;
     margin: 1rem auto;
     padding: 1rem 4em;
+    & h1{
     text-align: center;
     align-items: center;
     background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
+    }
 }
 
 .main-content {
@@ -25,7 +27,9 @@ html, * {
         font-size: 8dvh;
         font-weight: 600;
         display: block;
-        text-align: justified;
+        & h1 {
+            text-align: center;
+        }
     }
     body { 
         font-weight: 12dvh;
