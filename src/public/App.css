@@ -6,7 +6,7 @@ html, body, * {
 }
 
 .header {
-    display: inline-block;
+    display: flex;
     text-align: center;
     padding: 1rem 0;
     font-size: 3em;
