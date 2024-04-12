@@ -21,8 +21,10 @@ html, * {
 }
 
 @media only screen and (orientation: portrait) {
-    body {
-        font-size: 24dvh; 
+    .header {
+        font-size: 24dvh;
+    }
+    body { 
         font-weight: 12dvh;
         margin: auto auto;
         display: flex;
