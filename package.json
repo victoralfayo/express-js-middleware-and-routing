@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "description": "Express JS + Node Tutorial",
-  "authorn": "Victor Alfayo",
+  "author": "Victor Alfayo",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
