@@ -7,7 +7,7 @@ html {
     margin: auto;
     padding: 1rem;
     align-items: center;
-    background-color: orangered;
+    background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
     gap: 1em;
 }
