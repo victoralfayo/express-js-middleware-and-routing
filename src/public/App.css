@@ -4,8 +4,8 @@ html {
 
 .header {
     display: inline-block;
-    margin: auto auto;
-    padding: 1rem auto;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
     align-items: center;
     background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
