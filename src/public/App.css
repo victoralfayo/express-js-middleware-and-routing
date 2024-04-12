@@ -57,7 +57,7 @@ h1, h2, h3, h4{
     
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .header{
         display: flex;
         padding: 1rem 0;
@@ -66,4 +66,4 @@ h1, h2, h3, h4{
         margin: auto auto;
         font-weight: 2em;
     }
-}
+}*/
