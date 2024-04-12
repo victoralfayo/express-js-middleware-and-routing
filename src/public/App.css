@@ -26,11 +26,12 @@ html, * {
     .header {
         font-size: 12dvw 8dvh;
         font-weight: 600;
-        display: block;
+        display: flex;
+        flex-direction: row;
         margin: 1rem auto;
         padding: 1rem auto;
         text-align: center;
-        }
+        
     }
     body { 
         font-weight: 12dvh;
