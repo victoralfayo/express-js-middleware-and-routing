@@ -19,6 +19,7 @@ const hello2 = function (req, res, next) {
 app.get('/shukran', [hello, hello2], (req, res, next) => {
   console.log("Amani na Uhuru");
 },(req, res) => {
+  res.send("Ubaghile");
   console.log("Raha tupate na ustawi");
 })
 
