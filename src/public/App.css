@@ -7,9 +7,9 @@ html, body, * {
 
 .header {
     display: inline-block;
-    margin: 1rem auto;
+    text-align: center;
     padding: 1rem auto;
-    border: 1px hidden gray;
+    font-size: 3em;
 }
 
 h1 ,h2, h3, h4{ 
@@ -17,7 +17,6 @@ h1 ,h2, h3, h4{
     text-align: center;
     background-color: rgb(168, 61, 22);
     font-weight: 700;
-
 }
 .main-content p {
     margin: auto auto;
