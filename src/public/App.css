@@ -24,7 +24,7 @@ html, * {
 
 @media only screen and (orientation: portrait) {
     .header {
-        font-size: 8dvh 8dvw;
+        font-size: 8dvh 12dvw;
         font-weight: 600;
         display: block;
         margin: 1rem auto;
