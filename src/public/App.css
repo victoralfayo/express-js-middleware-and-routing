@@ -22,7 +22,7 @@ html, * {
 
 @media only screen and (orientation: portrait) {
     .header {
-        font-size: 24dvh;
+        font-size: 12dvh;
     }
     body { 
         font-weight: 12dvh;
