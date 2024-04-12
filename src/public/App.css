@@ -4,6 +4,8 @@ html, * {
 }
 
 .header {
+    font-size: 4em;
+    font-weight: 700;
     display: inline-block;
     margin: 1rem auto;
     padding: 1rem 4em;
