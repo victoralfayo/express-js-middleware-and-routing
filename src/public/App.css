@@ -49,11 +49,6 @@ h1, h2, h3, h4{
         align-items: center;
         justify-content: center;
     }
-    .main-content {
-        margin: auto auto;
-        font-size: 600;
-        font-weight: 2em;
-    }
     
 }
 
