@@ -8,6 +8,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 const port = process.env.PORT || 3000;
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 const hello = function (req, res, next) {
   //res.send("<p>Yashamwagika hayazoleki haya ooh</p>")
   console.log("Wasalam")
@@ -20,7 +25,7 @@ const hello2 = function (req, res, next) {
   next()
 }
 
-app.use(express.static(path.join(__dirname,'public')));
+
 
 app.get('/shukran', [hello, hello2], (req, res, next) => {
   
