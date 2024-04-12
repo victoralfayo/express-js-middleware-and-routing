@@ -4,7 +4,7 @@ console.log(`Hello Node.js`, process);
 
 const express = require('express');
 const app = express()
-const port = 3000;
+const port = process.env.PORT;
 
 const hello = function (req, res, next)  {
   console.log("Wasalam")
@@ -20,4 +20,8 @@ app.get('/shukran', [hello, hello2], (req, res, next) => {
   console.log("Amani na Uhuru");
 },(req, res) => {
   console.log("Raha tupate na ustawi");
+})
+
+app.listen(port, () => {
+  console.log("Nina furaha moyoni mwangu")
 })
