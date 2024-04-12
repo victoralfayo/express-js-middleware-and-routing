@@ -8,12 +8,14 @@ const dotenv = require('dotenv');
 dotenv.config();
 const port = process.env.PORT || 3000;
 
-const hello = function (req, res, next)  {
+const hello = function (req, res, next) {
+  res.send('<p>Yashamwagika hayazoleki haya ooh</p>')
   console.log("Wasalam")
   next();
 }
 
 const hello2 = function (req, res, next) {
+  res.send('<p>Mpenzi unaenda nilikuenzi vinoma noma</p>')
   console.log("Aleikum")
   next()
 }
