@@ -17,7 +17,14 @@ const hello2 = function (req, res, next) {
 }
 
 app.get('/shukran', [hello, hello2], (req, res, next) => {
+  
+  res.send("Mpenzi unaenda nenda lote mama")
   console.log("Amani na Uhuru");
+
 },(req, res) => {
   console.log("Raha tupate na ustawi");
+})
+
+app.listen(port , () => {
+  console.log("Ingwe yabaho");
 })
