@@ -3,12 +3,12 @@
 console.log(`Hello Node.js`, process);
 
 const express = require('express');
-const app = express();
-const port = process.env.PORT;
+const app = express()
+const port = 3000;
 
 const hello = function (req, res, next)  {
   console.log("Wasalam")
-  next()
+  next();
 }
 
 const hello2 = function (req, res, next) {
@@ -19,10 +19,5 @@ const hello2 = function (req, res, next) {
 app.get('/shukran', [hello, hello2], (req, res, next) => {
   console.log("Amani na Uhuru");
 },(req, res) => {
-  res.send("Ubaghile");
   console.log("Raha tupate na ustawi");
-})
-
-app.listen(port, () => {
-  console.log("Nina furaha moyoni mwangu");
 })
