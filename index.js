@@ -16,9 +16,9 @@ const hello2 = function (req, res, next) {
   next()
 }
 
-app.get('/shukran', [hello, hello2], (req, res, next) => {
+app.post('/shukran', [hello, hello2], (req, res, next) => {
   
-  res.send("Mpenzi unaenda nenda lote mama")
+  res.send("<h1>Mpenzi unaenda nenda lote mama</h1>")
   console.log("Amani na Uhuru");
 
 },(req, res) => {
