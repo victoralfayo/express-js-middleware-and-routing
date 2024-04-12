@@ -24,10 +24,11 @@ html, * {
 
 @media only screen and (orientation: portrait) {
     .header {
-        font-size: 8dvh;
+        font-size: 8dvh 8dvw;
         font-weight: 600;
         display: block;
-        & h1 {
+        margin: 1rem auto;
+        h1 {
             text-align: center;
         }
     }
