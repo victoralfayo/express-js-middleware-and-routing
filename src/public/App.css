@@ -18,6 +18,7 @@ h2, h3, h4{
     text-align: center;
     background-color: rgb(168, 61, 22);
     font-weight: 700;
+    margin: 1rem auto;
 }
 .main-content p {
     margin: auto auto;
