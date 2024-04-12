@@ -4,14 +4,17 @@ console.log(`Hello Node.js`, process);
 
 const express = require('express');
 const app = express()
+const path = require('path')
+//const __filename = fileURLToPath(import.meta.url);
+//const __dirname = path.dirname(__filename);
 const dotenv = require('dotenv');
 dotenv.config();
 const port = process.env.PORT || 3000;
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/src/views'));
 app.set('view engine', 'ejs');
 //read static files like HTML, CSS files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname,'/src/public')));
 
 const hello = function (req, res, next) {
   //res.send("<p>Yashamwagika hayazoleki haya ooh</p>")
