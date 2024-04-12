@@ -9,16 +9,18 @@ dotenv.config();
 const port = process.env.PORT || 3000;
 
 const hello = function (req, res, next) {
-  res.send("<p>Yashamwagika hayazoleki haya ooh</p>")
+  //res.send("<p>Yashamwagika hayazoleki haya ooh</p>")
   console.log("Wasalam")
   next();
 }
 
 const hello2 = function (req, res, next) {
-  res.send("<p>Mpenzi unaenda nilikuenzi vinoma noma</p>")
+  //res.send("<p>Mpenzi unaenda nilikuenzi vinoma noma</p>")
   console.log("Aleikum")
   next()
 }
+
+app.use(express.static(path.join(__dirname,'public')));
 
 app.get('/shukran', [hello, hello2], (req, res, next) => {
   
@@ -27,6 +29,10 @@ app.get('/shukran', [hello, hello2], (req, res, next) => {
 
 },(req, res) => {
   console.log("Raha tupate na ustawi");
+})
+
+app.get('/nenda', (req, res) => {
+  res.render('sauti');
 })
 
 app.listen(port, () => {
