@@ -12,7 +12,7 @@ html {
     gap: 1em;
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: portrait) {
     body {
         font-weight: 12dvh;
         margin: auto auto;
