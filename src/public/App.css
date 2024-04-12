@@ -10,7 +10,6 @@ html, body, * {
     margin: 1rem auto;
     padding: 1rem auto;
     border: 1px hidden gray;
-    
 }
 
 h1 { 
@@ -20,8 +19,9 @@ h1 {
     font-weight: 700;
 
 }
-.main-content {
+.main-content p {
     margin: auto auto;
+    font-weight: 500;
     padding: 1rem 2rem;
     text-align : center;
 }
