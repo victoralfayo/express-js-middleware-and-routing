@@ -8,12 +8,12 @@ html, body, * {
 .header {
     display: inline-block;
     text-align: center;
-    padding: 1rem auto;
+    padding: 1rem 0;
     font-size: 3em;
     background-color: rgb(168, 61, 22);
 }
 
-h2, h3, h4{ 
+h1, h2, h3, h4{ 
     font-size: 2em;
     text-align: center;
     background-color: rgb(168, 61, 22);
