@@ -10,10 +10,11 @@ html, body, * {
     text-align: center;
     padding: 1rem auto;
     font-size: 3em;
+    background-color: rgb(168, 61, 22);
 }
 
 h2, h3, h4{ 
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     background-color: rgb(168, 61, 22);
     font-weight: 700;
