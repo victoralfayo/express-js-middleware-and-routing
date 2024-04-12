@@ -1,12 +1,13 @@
-html {
+html, * {
     font-family: "Nokora", sans-serif;
     box-sizing: border-box;
 }
 
 .header {
     display: inline-block;
-    margin: 1rem auto;
+    margin: 1rem 0;
     padding: 1rem 1rem;
+    text-align: center;
     align-items: center;
     background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
