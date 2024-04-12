@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+//read static files like HTML, CSS files
 app.use(express.static(path.join(__dirname, 'public')));
 
 const hello = function (req, res, next) {
