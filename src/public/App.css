@@ -1,5 +1,6 @@
 html {
     font-family: "Nokora", sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
