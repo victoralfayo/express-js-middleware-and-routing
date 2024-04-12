@@ -9,13 +9,11 @@ html {
     align-items: center;
     background-color: rgb(168, 61, 22);
     border: 1px hidden gray;
-    gap: 1em;
 }
 
 .main-content {
     margin: auto auto;
     text-align : center;
-
 }
 
 @media only screen and (orientation: portrait) {
