@@ -12,7 +12,7 @@ html, body, * {
     border: 1px hidden gray;
 }
 
-h1 { 
+h1 ,h2, h3, h4{ 
     font-size: 3em;
     text-align: center;
     background-color: rgb(168, 61, 22);
