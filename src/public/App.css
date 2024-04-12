@@ -2,7 +2,7 @@ html, body, * {
     box-sizing: border-box;
     font-family: "Nokora", sans-serif;
     margin: 0;
-    
+    display: block;
 }
 
 .header {
