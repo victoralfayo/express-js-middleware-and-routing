@@ -29,7 +29,7 @@ html, * {
         display: flex;
         flex-direction: row;
         margin: 1rem auto;
-        padding: 1rem auto;
+        padding: 1rem 2rem;
         text-align: center;
         
     }
